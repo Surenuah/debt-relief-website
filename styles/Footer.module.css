@@ -1,0 +1,9 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F8FF;
+}
+
+.list {
+    display: flex;
+}

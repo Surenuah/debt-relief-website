@@ -1,0 +1,15 @@
+.mainContainer {
+    display: flex;
+}
+
+.listContainer {
+    margin: 0 100px;
+}
+
+.listContainer h1 {
+    font-size: 18px;
+}
+
+.listContainer p {
+    font-size: 14px;
+}

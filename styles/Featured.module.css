@@ -1,0 +1,48 @@
+.mainContainer {
+    display: flex;
+}
+
+.leftContainer {
+    flex: 1;
+    background-color: rgba(42, 57, 76, 1);
+    padding-left: 45px;
+}
+
+.titleGray {
+    color: #9C9C9C;
+    font-size: 14px;
+}
+
+.mainTitle {
+    font-size: 52px;
+    color: white;
+}
+
+.titleWhite {
+    color: white;
+    font-size: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 24px;
+    color: white;
+    background-color: rgba(255, 75, 75, 1);
+}
+
+.rightContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listContainer {
+    list-style: none;
+}
+
+.listItem {
+    color: white;
+    margin-top: 15px;
+}

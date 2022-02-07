@@ -1,0 +1,49 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftContainer {
+    width: 300px;
+    height: 92px;
+    background-color: #F8F2E4;
+    display: flex;
+    margin-top: 5px;
+}
+
+.verticalLine {
+    border: 1px solid #473A32;
+    margin-left: 15px;
+}
+
+.confidentTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.leftContainer p {
+    font-size: 14px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.telephoneTitle {
+    font-size: 24px;
+    font-weight: normal;
+    color: #004DAE;
+}
+
+.btn {
+    width: 283px;
+    height: 64px;
+    background-color: rgba(0, 77, 174, 0.07);
+    color: #004DAE;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-top: 15px;
+}

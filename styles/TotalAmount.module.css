@@ -1,0 +1,75 @@
+.mainContainer {
+    display: flex;
+}
+
+.leftContainer {
+    flex: 1;
+    background-color: rgba(42, 57, 76, 1);
+    padding: 70px 100px;
+}
+
+.title {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels {
+    display: flex;
+}
+
+.checkboxRound {
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.checkboxRound:checked {
+    background-color: gray;
+}
+
+.label {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.button {
+    border: none;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: #FF4B4B;
+    color: white;
+    position: absolute;
+    width: 132px;
+    height: 56px;
+    left: 573px;
+    top: 534px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    margin-left: 150px;
+}
+
+.rightContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
